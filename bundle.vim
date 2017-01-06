@@ -32,4 +32,6 @@ Plugin 'scrooloose/nerdcommenter'
 
 call vundle#end()
 
+let vundle#bundle_dir = expand('$HOME/.vim/plugin', 3)
+
 filetype plugin indent on
